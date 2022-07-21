@@ -1,3 +1,6 @@
+
+
+
 #guess the number 0to10
 
 #dictionary
@@ -84,4 +87,113 @@ while True:
 
        print("\n\nI N F O R M A T I O N : E R R O R \n\n")
 
-       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    if num2==20:
+
+        print("\nGO NEXT ROW\n\n")
+
+    elif num2==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("2,8,7,9,10")#30
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict3.keys():
+
+        num3=dict3[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    if num3==30:
+
+        print("\nGO NEXT ROW\n\n")
+
+    elif num3==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("1,8,7,3,9")#40
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict4.keys():
+
+        num4=dict4[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    if num4==40:
+
+        print("\nTHANK YOU\n\n")
+
+        S=input("PRESS ENTER TO CONTINUE...")
+
+        del S
+
+    elif num4==0:
+
+        print("\nTHANK YOU\n\n")
+
+        S=input("PRESS ENTER TO CONTINUE...")
+
+        del S
+
+    number=num1+num2+num3+num4;
+
+    if number in dict.keys():
+
+       print("================================================================")
+
+       print( dict[number],'--->Neenga Nenacha Number ithudhane correctahh???......')
+
+       print("================================================================\n\n\n")
+
+    str1=input("\n\nENTER \'Y\' IF YOU WISH TO PROCEED. OTHERWISE,ENTER \'N\' :")
+
+    if (str1.upper().strip()=='Y'):
+
+        continue;
+
+    else:
+
+        print("\n\n\nC R E A T E D  B Y ,\n\n\t\tI   B   B   U")
+
+
+
+        print("\n\n< < < E X I T > > >")
+
+        
+
+        break;
+
+
+
+
+
+
+
