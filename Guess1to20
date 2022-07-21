@@ -1,0 +1,306 @@
+
+
+#guess the number 1to 20
+
+#dictionary
+
+dict={10:18,20:6,30:20,40:1,50:2,60:14,70:13,80:9,90:17,100:16,1:4,2:8,3:5,4:11,5:12,6:10,7:3,8:19,9:7,0:15}
+
+dict1={'y':10,'n':0}
+
+dict2={'y':20,'n':0}
+
+dict3={'y':30,'n':0}
+
+dict4={'y':40,'n':0}
+
+dict5={'y':1,'n':0}
+
+dict6={'y':2,'n':0}
+
+dict7={'y':3,'n':0}
+
+dict8={'y':4,'n':0}
+
+# style function
+
+def w():
+
+    print("--------------------------")
+
+#while loop
+
+while True:
+
+    name=input("PRESS ENTER KEY TO START....\t")
+
+    del name
+
+    print("------------------------------------------------------")
+
+    print("1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20")
+
+    print("------------------------------------------------------")
+
+    print("\nTHINK ANY NUMBER GIVEN ABOVE\n")
+
+    name=input("IF YOU ARE THINK PRESS ENTER KEY TO START....\n")
+
+    print("\n'y'--->'YES'\t'n'--->'NO'\n")
+
+    del name
+
+    w()
+
+    print("6,9,16,20,14")#10
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict1.keys():
+
+        num1=dict1[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")
+
+       continue;
+
+    if num1==10:
+
+        print("\nGO NEXT ROW")
+
+    elif num1==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("17,2,20,16,14")#20
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict2.keys():
+
+        num2=dict2[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    if num2==20:
+
+        print("\nGO NEXT ROW")
+
+    elif num2==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("13,2,16,17,9,14")#30
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict3.keys():
+
+        num3=dict3[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    if num3==30:
+
+        print("\nGO NEXT ROW")
+
+    elif num3==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("17,13,9,1,16")#40
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict4.keys():
+
+        num4=dict4[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    if num4==40:
+
+        print("\nGO NEXT ROW\n\n")
+
+    elif num4==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("12,4,18,3,19,6,10")#1
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict5.keys():
+
+        num5=dict5[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")
+
+       continue;
+
+    if num5==1:
+
+        print("\nGO NEXT ROW")
+
+    elif num5==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("6,3,18,7,8,10")#2
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict6.keys():
+
+        num6=dict6[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    
+
+    if num6==2:
+
+        print("\nGO NEXT ROW")
+
+    elif num6==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("18,6,7,5,19,10")#3
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict7.keys():
+
+        num7=dict7[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    if num7==3:
+
+        print("\nGO NEXT ROW")
+
+    elif num7==0:
+
+        print("\nCHECK NEXT ROW\n\n")
+
+    w()
+
+    print("11,18,6,12,7,3,19")#4
+
+    w()
+
+    string=str(input('\nENTER \'Y\' IF THE NUMBER YOU ARE THINKING OF IS THERE OR ENTER \'N\' IF NOT :'))
+
+    if string.lower().strip() in dict8.keys():
+
+        num8=dict8[string.lower().strip()]
+
+    else:
+
+       print("\n\nI N F O R M A T I O N : E R R O R \n\n")
+
+       print("\nPLEASE ENTER THE CORRECT SPELLING OF \'y\' OR \'n\' ON THIS TIME ....\n")      
+
+       continue;
+
+    if num8==4:
+
+        print("\nTHANK YOU\n\n")
+
+    elif num8==0:
+
+        print("\nTHANK YOU\n\n")
+
+    number=num1+num2+num3+num4+num5+num6+num7+num8
+
+    if number in dict.keys():
+
+       print("================================================================")
+
+       print( dict[number],'--->Neenga Nenacha Number ithudhane correctahh???......')
+
+       print("================================================================\n\n\n")
+
+    str1=input("\n\nIF YOU ARE CONTINUE ENTER \'y\'OR IF YOU ARE EXIT ENTER \'n\' :")
+
+    if (str1.upper().strip()=='Y'):
+
+        continue;
+
+    else:
+
+        print("\n\n\nC R E A T E D  B Y ,\n\n\t\tI   B   B   U")
+
+        print("\n\n< < < E X I T > > >")
+
+        break;
+
+
+
+
+
